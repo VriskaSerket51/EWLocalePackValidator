@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "LocalePack",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.locale_pack",
+				"match": "\\b(return)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.locale_pack",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.locale_pack",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.locale_pack"
+}

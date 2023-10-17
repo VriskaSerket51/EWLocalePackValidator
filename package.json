@@ -1,0 +1,25 @@
+{
+  "name": "ewloalepack",
+  "displayName": "EWLoalePack",
+  "description": "Eastward Locale Pack Validator",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "locale_pack",
+      "aliases": ["LocalePack", "locale_pack"],
+      "extensions": [".locale_pack"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "locale_pack",
+      "scopeName": "source.locale_pack",
+      "path": "./syntaxes/locale_pack.tmLanguage.json"
+    }]
+  }
+}
