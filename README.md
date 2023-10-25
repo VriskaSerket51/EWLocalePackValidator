@@ -1,4 +1,4 @@
-> **info**
+> [!NOTE]
 > .locale_pack file was actually .lua file LOL, so this repo will not be updated
 
 
