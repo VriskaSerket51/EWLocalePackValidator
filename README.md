@@ -1,3 +1,8 @@
+> .locale_pack file was actually .lua file LOL, so this repo will not be updated
+
+
+
+
 # ewloalepack README
 
 This is the README for your extension "ewloalepack". After writing up a brief description, we recommend including the following sections.
